@@ -27,10 +27,12 @@ function doBuild {
 
 case $action in
      "push")
+        git push $@
         for D in */; do pushd "$D" && git push $@ && popd; done
         ;;
      
      "pull")
+        git pull $@
         for D in */; do pushd "$D" && git pull $@ && popd; done
         ;;
 
