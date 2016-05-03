@@ -27,11 +27,11 @@ function doBuild {
 
 case $action in
      "push")
-        for D in */; do pushd "$D" && git push && popd; done
+        for D in */; do pushd "$D" && git push $@ && popd; done
         ;;
      
      "pull")
-        for D in */; do pushd "$D" && git pull && popd; done
+        for D in */; do pushd "$D" && git pull $@ && popd; done
         ;;
 
      "build")
@@ -43,7 +43,7 @@ case $action in
         ;;
 
     "run")
-        doBuild exec:java -Dexec.args="$@"
+        doBuild verify -DskipTests -Dexec.args="$@"
         ;;
 
     *)
