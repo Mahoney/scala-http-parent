@@ -51,7 +51,7 @@ case $action in
     *)
         echo "Sorry, no idea what you mean by '$action'"
         echo "Usage:"
-        echo "$0 build | compile | run"
+        echo "$0 build | compile | run | push | pull"
         exit 1
     ;;
 esac
