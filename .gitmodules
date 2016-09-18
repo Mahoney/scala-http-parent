@@ -1,18 +1,18 @@
 [submodule "example-app"]
 	path = example-app
-	url = ./example-app
+	url = git@github.com:Mahoney/example-app
 [submodule "lidalia-http-client"]
 	path = lidalia-http-client
-	url = ./lidalia-http-client/
+	url = git@github.com:Mahoney/lidalia-http-client.git
 [submodule "lidalia-http-core"]
 	path = lidalia-http-core
-	url = ./lidalia-http-core/
+	url = git@github.com:Mahoney/lidalia-http-core.git
 [submodule "lidalia-net"]
 	path = lidalia-net
-	url = ./lidalia-net
+	url = git@github.com:Mahoney/lidalia-net.git
 [submodule "lidalia-scala-lang"]
 	path = lidalia-scala-lang
-	url = ./lidalia-scala-lang
+	url = git@github.com:Mahoney/lidalia-scala-lang.git
 [submodule "lidalia-stubhttp"]
 	path = lidalia-stubhttp
-	url = ./lidalia-stubhttp/
+	url = git@github.com:Mahoney/lidalia-stubhttp.git
