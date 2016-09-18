@@ -1,0 +1,18 @@
+[submodule "example-app"]
+	path = example-app
+	url = ./example-app
+[submodule "lidalia-http-client"]
+	path = lidalia-http-client
+	url = ./lidalia-http-client/
+[submodule "lidalia-http-core"]
+	path = lidalia-http-core
+	url = ./lidalia-http-core/
+[submodule "lidalia-net"]
+	path = lidalia-net
+	url = ./lidalia-net
+[submodule "lidalia-scala-lang"]
+	path = lidalia-scala-lang
+	url = ./lidalia-scala-lang
+[submodule "lidalia-stubhttp"]
+	path = lidalia-stubhttp
+	url = ./lidalia-stubhttp/
