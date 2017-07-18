@@ -14,6 +14,8 @@
     <module>lidalia-http-core</module>
     <module>lidalia-stubhttp</module>
     <module>lidalia-http-client</module>
+    <module>lidalia-scalatest</module>
+    <module>lidalia-webdriver</module>
     <module>example-app</module>
   </modules>
 </project>
